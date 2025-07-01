@@ -13,7 +13,7 @@
 
 ## About my self
 
-Self educated person trying to breach over knowledge gaps and be more professional.</br>
+Self educated person trying to breach over knowledge gaps and be more professional.
 I want to become full stack developer, want to launch a product that will give me a stable profit.
 
 [my real CV](https://serhiimalykhin.github.io/CV/)
