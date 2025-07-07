@@ -1,0 +1,25 @@
+h1 {
+    font-size: 36px;
+}
+
+#my-picture {
+    float: left;
+    width: 150px;
+}
+
+header {
+    display: flow-root;
+    width: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+body {
+    width: 600px;
+}
