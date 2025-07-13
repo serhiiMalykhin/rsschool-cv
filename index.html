@@ -9,56 +9,101 @@
 </head>
 
 <body>
+    <div class="menu">
+        <nav>
+            <a href="#summary">Summary</a> |
+            <a href="#contacts">Contacts</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#courses">Courses</a> |
+            <a href="#code">Code</a> |
+            <a href="#languages">Languages</a>
+        </nav>
+    </div>
+    <header class="cv-header">
+        <div class="left">
+            <img class="my-picture"
+                src="https://s3.resume.io/uploads/profile_picture/file/15649795/9e7d2e64be2539ac79153b5318a6b9c4.jpg?version=5bfa1ebc4"
+                alt="Malykhin">
 
-    <header id="cv-header">
-        <h1>Serhii Malykhin</h1>
-        <img id="my-picture"
-            src="https://s3.resume.io/uploads/profile_picture/file/15649795/9e7d2e64be2539ac79153b5318a6b9c4.jpg?version=5bfa1ebc4"
-            alt="Malykhin">
-        <div class="about-me">
-            <table>
-                <tbody>
-                    <tr>
-                        <td>Email</td>
-                        <td><a href="mailto:serhii.malykhin@gmail.com">serhii.malykhin@gmail.com</a></td>
-                    </tr>
-                    <tr>
-                        <td>Location</td>
-                        <td><a href="https://www.google.com/maps/place/Lutsk,+Volyn+Oblast">Lutsk</a></td>
-                    </tr>
-                </tbody>
-            </table>
+        </div>
+        <div class="right">
+            <h1>Serhii Malykhin</h1>
+            <div class="title">Junior Front-end developer</div>
         </div>
     </header>
 
-    <div id="cv-body">
+    <div class="cv-body">
         <div class="left">
-            <span>RS school Date: 2025</span>
-            <p>Jorney is starting from 2025.</p>
-        </div>
-        <div class="right">
-            <table>
-                <caption>skills</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">name</th>
-                        <th scope="col">description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>html</td>
-                        <td>self educated 2026</td>
-                    </tr>
-                    <tr>
-                        <td>css</td>
-                        <td>self educated 2025</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="block" id="contacts">
+                <div class="title">contacts</div>
+                <div class="info">
+                    <ul>
+                        <li><a href="https://www.google.com/maps/place/Lutsk,+Volyn+Oblast">Lutsk</a>, Ukraine</li>
+                        <li>Email: <a href="mailto:serhii.malykhin@gmail.com">serhii.malykhin@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="block" id="skills">
+                <div class="title">skills</div>
+                <div class="info">
+                    <ul>
+                        <li>Web-development: HTML, CSS, JavaScript</li>
+                        <li>Frameworks and libraries: none</li>
+                        <li>Version control: Bitbucket, Github</li>
+                        <li>Graphics: Figma</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="block" id="courses">
+                <div class="title">Courses</div>
+                <div class="info">
+                    <ul>
+                        <li>Hexlet: JavaScript for beginner</li>
+                        <li>loftSchool: JavaScript training</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
+
+
+        <div class="right">
+            <div class="block" id="summary">
+                <div class="title">summary</div>
+                <div class="info">
+                    Description about myself and general goals.
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="title">code</div>
+                <div class="info">
+                    <pre>
+                        <code>
+function greet(name) {
+    console.log("Hello, " + name + "!");
+}
+greet("world");
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+
+            <div class="block" id="languages">
+                <div class="title">Languages</div>
+                <div class="info">
+                    English, Russian, Ukrainian
+                </div>
+            </div>
+        </div>
     </div>
+    <footer>
+        2025 some footer text
+    </footer>
 </body>
 
 </html>
